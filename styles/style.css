@@ -1,0 +1,401 @@
+/* CSS Document */
+
+@-ms-viewport{
+  width:extend-to-zoom;
+  zoom: 1.0;
+}
+
+
+
+*, *::after, *::before {
+  box-sizing:border-box;  
+  
+  font-family: urw-din, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+strong {
+  font-family: urw-din, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body{
+ margin:0;
+ padding:0;
+ background-color:rgb(233, 233, 233);
+
+}
+
+.rodebalk{
+  color:white;
+  background-color: #e0001b; 
+  height:3.5em;
+  position: fixed;
+  z-index:10;
+  width: 100%;
+  height:50px;
+}
+
+.logo img{
+  height:90px;
+  margin-top:45px;
+  margin-left: 2%;
+}
+
+
+ 
+a.lidworden{
+  background-color: #5AB999;
+  color:white;
+  padding: 0.6em;
+  position: absolute;
+  right: 10px;
+  top: 6px;
+}
+
+/* Dit is het hamburger menu, met als inspiratie: https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0 */
+
+.hamburger{
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 36px;
+  height: 36px;
+  border: none;
+  cursor: pointer;
+  background-image: url(../images/hamburger.png);
+  background-size: 100%;
+  background-color: transparent;
+  z-index: 1000;
+}
+
+.openDicht{
+    background-image: url(../images/sluit.png);
+    width: 36px;
+    position: absolute;
+    transform:translate(85vw);
+    transition: transform 0.5s;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #f2f2f2;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  /* hierdoor "verstopt" hij zich links van het scherm */
+  transform: translate(-100%);
+  transition: transform 0.5s;
+}
+
+.zieNav {
+  /* laat het menu zien */
+  transform: translateY(0);
+}
+
+.navbar .listicons{
+  list-style: none;
+  margin-top: 150px;
+  padding-left: 2%;
+}
+
+.navbar .listicons a{
+  color: black;
+  font-size: 20px;
+}
+
+.navbar .menuopties{
+  list-style: none;
+  margin-top: 40px;
+  padding-left: 5%;
+
+}
+
+.navbar li{
+  margin-bottom:20px;
+}
+
+.navbar .menuopties a{
+  color:  black;
+  font-size: 15px;
+
+}
+
+.navbar a:hover{
+  color: #e0001b;
+}
+
+.navbar ul img{
+  width: 25px;
+  margin-right: 1em;
+}
+
+.navbar .menuopties img{
+  width: 15px;
+  margin-right: 1em;
+}
+
+a.inloggen{
+  background-color: white;
+  color:#e0001b;
+  padding: 0.6em;
+  position: absolute;
+  left: 10px;
+  top: 6px;
+}
+
+/* Einde hamburgermenu */
+
+a{
+  text-decoration: none;
+}
+
+
+a.lidworden:hover{
+  background-color: #54A389;
+}
+
+
+.yogahouding{ 
+  width: 100%;
+  margin-top:40px;
+  padding:0;
+}
+
+
+.informatie{
+  margin-left:2vw;
+  margin-right: 2vw;
+  position: relative;
+  margin-top:-70px;
+  padding:0;
+}
+
+.informatie h3{
+  background-color:#e0001b;
+  color:white;
+  font-size: 1.2em;
+  text-align: center;
+  margin-left:0.3em;
+  margin-right: 0.3em;
+  padding:1em 4.5em 1em 4.5em;
+}
+
+.vergrootglas{
+ width:2.5em;
+ position: absolute;
+ top:1em;
+ right: 10%;
+}
+
+.fit{
+  margin-left:1em;
+  margin-right: 1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color:#e0001b;
+  padding:1em 4.5em 1em 4.5em;
+  padding-bottom:2em;
+}
+
+.fit h1{
+  font-weight: 250;
+  font-size: 2em;
+  background-color: #e0001b;
+  color:white;
+  font-size: 3em;
+  font-weight: 900;
+  text-align: left;
+  max-width: 300px;
+}
+
+.fit h2{
+  font-weight: 250;
+  font-size: 2em;
+  background-color: #e0001b;
+  color:white;
+  font-size: 3em;
+  font-weight: 900;
+  text-align: left;
+  max-width: 300px;
+}
+
+.fit h3{
+  font-weight: 100;
+  font-size: 1.3em;
+  background-color: #e0001b;
+  color:white;
+  font-weight: 50;
+  margin-bottom: 2em;
+}
+
+.fit a {
+  background-color:white;
+  color: #e0001b;
+  font-size:1em;
+  padding-right:1.3em;
+  padding-top:0.6em;
+  padding-bottom:0.4em;
+  padding-left: 0.8em;
+  margin-bottom: 20em;
+}
+
+
+
+.grotefoto img{
+  padding-left:1em;
+  padding-right: 1em;
+  width: 100%;
+}
+
+
+.onderwerp{
+  padding-left:1em;
+  padding-right: 1em;
+  background-color:white;
+  padding-bottom: 4em;;
+  margin-bottom: 1em; 
+}
+
+
+.onderwerp h2{
+  margin-left: 0.5em;
+  color:#e0001b;
+  padding-top:1em;
+  font-family: stencil-std, sans-serif;
+}
+
+.onderwerp p{
+  margin-left: 1em;
+  margin-right: 1em; 
+  font-size: 0.8em;
+}
+
+
+.rood{
+  color: #e0001b;
+}
+
+.paragrafen{
+  margin-bottom: 2em;
+}
+
+.onderwerp p{
+  margin-bottom: 3em;;
+}
+
+.onderwerp .groenebutton{
+  background-color: #5AB999;
+  color:white;
+  padding:1em;
+  font-size: 1.2em;
+  margin-left: 1vw;
+
+}
+
+.onderwerp .wittebutton{
+  color:#5AB999;
+  font-size: 1.2em;
+  margin-left: 2vw;
+  display:block;
+  position: relative;
+  margin-top:1em;
+}
+
+.groenpijltje {
+  width: 1.5em;
+  transform: translateY(15px);
+}
+
+
+.imginwit{
+  position: relative;
+}
+
+.imginwit img{
+  padding-left:2.5%;
+  padding-top:2vw;
+  width: 95%;
+
+}
+
+.imginwit h3{
+  position: absolute;
+  color: white;
+  font-size: 1em;
+  background-image: linear-gradient(to bottom, rgba(236, 231, 231, 0.007), rgba(53, 52, 52, 0.397), rgba(0, 0, 0, 0.801));
+  left:2.5%; right: 0; bottom:4px;
+  margin:0; 
+  padding:.5em;
+  padding-top:1em;
+  width: 100%;
+
+  z-index: 3;
+
+}
+
+#infofooter{
+  padding-top:1em;
+  list-style: none;
+
+}
+
+#infofooter a{
+  color:black;
+  font-size:0.8em;
+}
+
+#infofooter a:hover{
+  color:#e0001b;
+}
+
+#socialmedia{
+  list-style: none;
+  padding:1em;
+}
+
+#socialmedia li{
+  display:inline;
+  justify-content: center;
+}
+
+#socialmedia img{
+  width: 60px;
+}
+
+#lidwordenpagina{
+  padding-top:7em;
+}
+
+h4 {
+  padding-left: 2vw;
+  color:#e0001b;
+  font-size: 1.2em;
+
+  font-family: urw-din, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Drop down menu --------------------------- */
+
+.locatieopties label{
+  padding-left: 2vw;
+}
+
+.locatieopties select{
+  border:none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.locatieopties img{
+  width: 2em;
+  transform: translateY(13px);
+}
