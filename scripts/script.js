@@ -14,7 +14,7 @@ function toggleHamburger(){
     hamburger.classList.toggle("openDicht")
   }
 
-  hamburger.addEventListener("click", toggleHamburger)
+hamburger.addEventListener("click", toggleHamburger)
 
 
 
