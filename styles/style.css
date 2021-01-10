@@ -1,11 +1,5 @@
 /* CSS Document */
 
-@-ms-viewport{
-  width:extend-to-zoom;
-  zoom: 1.0;
-}
-
-
 
 *, *::after, *::before {
   box-sizing:border-box;  
