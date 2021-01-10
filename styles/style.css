@@ -3,11 +3,9 @@
 
 *, *::after, *::before {
   box-sizing:border-box;  
-  
   font-family: urw-din, sans-serif;
   font-weight: 400;
   font-style: normal;
-
 }
 
 strong {
@@ -21,7 +19,6 @@ body{
  margin:0;
  padding:0;
  background-color:rgb(233, 233, 233);
-
 }
 
 .rodebalk{
@@ -39,8 +36,6 @@ body{
   margin-top:45px;
   margin-left: 2%;
 }
-
-
  
 a.lidworden{
   background-color: #5AB999;
@@ -119,7 +114,6 @@ a.lidworden{
 .navbar .menuopties a{
   color:  black;
   font-size: 15px;
-
 }
 
 .navbar a:hover{
@@ -156,13 +150,11 @@ a.lidworden:hover{
   background-color: #54A389;
 }
 
-
 .yogahouding{ 
   width: 100%;
   margin-top:40px;
   padding:0;
 }
-
 
 .informatie{
   margin-left:2vw;
@@ -203,7 +195,7 @@ a.lidworden:hover{
   font-weight: 250;
   font-size: 2em;
   background-color: #e0001b;
-  color:white;
+  color: white;
   font-size: 3em;
   font-weight: 900;
   text-align: left;
@@ -214,7 +206,7 @@ a.lidworden:hover{
   font-weight: 250;
   font-size: 2em;
   background-color: #e0001b;
-  color:white;
+  color: white;
   font-size: 3em;
   font-weight: 900;
   text-align: left;
@@ -225,13 +217,13 @@ a.lidworden:hover{
   font-weight: 100;
   font-size: 1.3em;
   background-color: #e0001b;
-  color:white;
+  color: white;
   font-weight: 50;
   margin-bottom: 2em;
 }
 
 .fit a {
-  background-color:white;
+  background-color: white;
   color: #e0001b;
   font-size:1em;
   padding-right:1.3em;
@@ -253,8 +245,8 @@ a.lidworden:hover{
 .onderwerp{
   padding-left:1em;
   padding-right: 1em;
-  background-color:white;
-  padding-bottom: 4em;;
+  background-color: white;
+  padding-bottom: 4em;
   margin-bottom: 1em; 
 }
 
@@ -287,11 +279,10 @@ a.lidworden:hover{
 
 .onderwerp .groenebutton{
   background-color: #5AB999;
-  color:white;
+  color: white;
   padding:1em;
   font-size: 1.2em;
   margin-left: 1vw;
-
 }
 
 .onderwerp .wittebutton{
